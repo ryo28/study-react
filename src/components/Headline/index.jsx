@@ -1,4 +1,4 @@
-import styles from "./Headline.module.css";
+import styles from "../Headline";
 
 export function Headline(props) {
   return (
