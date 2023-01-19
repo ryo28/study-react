@@ -13,8 +13,8 @@ export default function About({
   array,
   handelChange,
   handleAdd,
-})
- {
+  doubleCount
+}) {
   return (
     <div className={styles.container}>
       <Head>
@@ -23,7 +23,7 @@ export default function About({
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      {isShow ? <h1>{count}</h1> : null}
+      {isShow ? <h1>{doubleCount}</h1> : null}
       <button href="/about" onClick={handleClick}>
         ボタン
       </button>
